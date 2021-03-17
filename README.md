@@ -1,4 +1,4 @@
-# IntelliJ-mybatis
+# IntelliJ-mybatis-tomcat
 인텔리제이 + 마이바티스 + 톰캣 게시판 만들기
 
 ## 3.17 
