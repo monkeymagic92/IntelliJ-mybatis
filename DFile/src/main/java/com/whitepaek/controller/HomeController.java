@@ -56,4 +56,10 @@ public class HomeController {
         model.addAttribute("list", dto);
         return "selUser";
     }
+
+    @RequestMapping(value="abc", method = RequestMethod.GET)
+    public String abc(Model model) {
+        model.addAttribute("abc", "abc");
+        return "abc";
+    }
 }
