@@ -6,8 +6,11 @@
 > #### SpringMVC 패턴 컨트롤러 - jsp 매핑완료
    
    
-## 3.19
+## 3.19 (오전)
 > #### 새로운 버전으로 깔끔하게 매핑 성공 (3.17 버전보다 더 깔끔함)   
 > FoxFile (구버전) / DFile (신버전)
 > #### https://whitepaek.tistory.com/41 
-
+   
+   
+## 3.19 (오후)
+> #### tomcat + mybatis + mysql 연동 완료   
