@@ -1,5 +1,6 @@
 package com.whitepaek.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 @RequestMapping("/home/*")
 public class HomeController {
+
+    @Autowired
+    private HomeService service;
 
     @GetMapping("test")
     public @ResponseBody String hometest() {
@@ -43,5 +47,13 @@ public class HomeController {
     public String dog(Model model) {
         model.addAttribute("dog", "강아지 입니다");
         return "dog";
+    }
+
+    @GetMapping("user")
+    public String selUser(UserDTO dto, Model model) {
+
+        dto = service.selUser();
+        model.addAttribute("list", dto);
+        return "selUser";
     }
 }
