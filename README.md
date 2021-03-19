@@ -8,6 +8,6 @@
    
 ## 3.19
 > #### 새로운 버전으로 깔끔하게 매핑 성공 (3.17 버전보다 더 깔끔함)   
-> D파일
+> FoxFile (구버전) / DFile (신버전)
 > #### https://whitepaek.tistory.com/41 
 
