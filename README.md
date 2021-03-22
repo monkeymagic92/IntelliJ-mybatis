@@ -26,8 +26,9 @@
 > #### C드라이브에 한 폴더에 한 프로젝트만 들어가있어야 정상작동함   
 > #### 문제해결 완료   
    
+   
 
-> #### properties 파일에서 한글이 유니코드로 나올때 인코딩 방법   
+> #### ☆ properties 파일에서 한글이 유니코드로 나올때 인코딩 방법 ☆   
 > #### Settings - file encodings - (하단) Transparent native-to-ascill conversion 체크하기   
 
 
